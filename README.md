@@ -1,16 +1,40 @@
-# React + Vite
+# React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive task management application built with React that helps users organize their daily tasks efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ✅ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✔️ Mark tasks as completed
+- 🔍 Search tasks
+- 📂 Filter by All, Completed, and Pending
+- 🚦 Priority levels (High, Medium, Low)
+- 📅 Set due dates
+- ⚠️ Overdue task indicator
+- 💾 Local Storage persistence
+- 📱 Responsive design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6+)
+- CSS3
+- Local Storage
+- Vite
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Martha-2020/react-task-manager.git
+cd react-task-manager
+npm install
+npm run dev
+```
+
+## Author
+
+**Chinelo Martha**
+
+GitHub: https://github.com/Martha-2020
